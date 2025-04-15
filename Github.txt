@@ -1,0 +1,39 @@
+Here's a step-by-step guide to create a **GitHub repository**, build a simple app (we’ll use the same registration app), and push it using Git commands.
+
+---
+
+### ✅ 1. **Create a GitHub Account**
+- Go to [https://github.com](https://github.com)
+- Click **Sign Up** and complete the registration.
+
+---
+
+### ✅ 2. **Create a New Repository**
+- Click **New Repository**.
+- Name it something like `registration-app`.
+- Keep it **public** or **private**.
+- Do **not** initialize with README (we’ll do that locally).
+
+### ✅ 4. **Initialize Git Repository Locally**
+
+git init
+git config user.name "Your Name"
+git config user.email "your-email@example.com"
+
+### ✅ 5. **Add and Commit Code**
+
+git add .
+git commit -m "Initial commit - registration app"
+
+### ✅ 6. **Link to GitHub Repository**
+
+Go to your GitHub repo and copy the URL (HTTPS).
+
+Then run:
+
+
+git remote add origin https://github.com/yourusername/registration-app.git
+git branch -M main
+git push -u origin main
+
+
